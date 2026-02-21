@@ -1,0 +1,6 @@
+@echo off
+echo ACTIVATING VIRTUAL ENVIRONMENT...
+call .venv\Scripts\activate.bat
+echo LAUNCHING DIABETIC RETINOPATHY PRO DASHBOARD...
+python -m streamlit run src\app.py
+pause

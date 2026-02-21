@@ -1,0 +1,25 @@
+stages:
+  preprocess:
+    cmd: python src/preprocessing/transforms.py
+    deps:
+      - data/raw
+      - src/preprocessing/transforms.py
+    outs:
+      - data/processed
+
+  train:
+    cmd: python src/pipeline.py --task classification
+    deps:
+      - data/processed
+      - src/models/classifier.py
+    outs:
+      - experiments/models/model.pth
+
+  evaluate:
+    cmd: python src/explainability/heatmaps.py
+    deps:
+      - experiments/models/model.pth
+      - src/explainability/heatmaps.py
+    metrics:
+      - experiments/metrics.json:
+          cache: false

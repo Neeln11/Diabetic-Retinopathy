@@ -1,0 +1,44 @@
+{
+    "project_name": "Diabetic Retinopathy Clinical AI",
+    "version": "1.0.0 (Production)",
+    "last_updated": "2026-02-18",
+    "description": "3-Model Ensemble for Regulatory-Grade DR Screening",
+    "ensemble_composition": {
+        "specialist": {
+            "name": "Swin-Tiny (Messidor Adapted)",
+            "file": "production/weights/production_v1.pth",
+            "role": "Sensitivity Expert",
+            "metrics": {
+                "sensitivity_referable_dr": 0.964,
+                "specificity": 0.61,
+                "tuning_data": "Messidor-2 (200 samples)"
+            }
+        },
+        "generalist_1": {
+            "name": "EfficientNet-B0",
+            "file": "production/weights/efficientnet_b0_aptos_finetuned.pth",
+            "role": "Feature Extractor",
+            "metrics": {
+                "qwk": 0.8122,
+                "tuning_data": "Unified Master Dataset (16k images)"
+            }
+        },
+        "generalist_2": {
+            "name": "DenseNet-121",
+            "file": "production/weights/densenet121_aptos_finetuned.pth",
+            "role": "Feature Extractor",
+            "metrics": {
+                "qwk": 0.8222,
+                "tuning_data": "Unified Master Dataset (16k images)"
+            }
+        }
+    },
+    "system_performance": {
+        "calibration_ece": 0.068,
+        "safety_mechanisms": [
+            "Weighted Ordinal Loss",
+            "Ambiguity Filter (0.4-0.6 conf)",
+            "Human-in-the-Loop Feedback Mode"
+        ]
+    }
+}

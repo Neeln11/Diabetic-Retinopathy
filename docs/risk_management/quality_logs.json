@@ -1,0 +1,802 @@
+[
+    {
+        "timestamp": "2026-02-12T10:56:36.838938",
+        "image_id": "20170413102628830.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 87.3 < 100",
+        "metrics": {
+            "blur_score": 87.27433222948781,
+            "brightness": 88.17832120223908
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:36.926071",
+        "image_id": "20170413112015395.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 55.0 < 100",
+        "metrics": {
+            "blur_score": 54.962286072965775,
+            "brightness": 83.99068926351028
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.011367",
+        "image_id": "20170413112017305.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 62.2 < 100",
+        "metrics": {
+            "blur_score": 62.21770384983262,
+            "brightness": 95.00224046935847
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.019193",
+        "image_id": "20170413112528859.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 50.9 < 100",
+        "metrics": {
+            "blur_score": 50.87069317988062,
+            "brightness": 65.46155548095703
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.025452",
+        "image_id": "20170413112758639.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 65.5 < 100",
+        "metrics": {
+            "blur_score": 65.51108157505223,
+            "brightness": 69.20849227905273
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.031021",
+        "image_id": "20170413112758698.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 80.7 < 100",
+        "metrics": {
+            "blur_score": 80.6550978901214,
+            "brightness": 68.61548614501953
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.036282",
+        "image_id": "20170413113351595.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 60.1 < 100",
+        "metrics": {
+            "blur_score": 60.09056846704334,
+            "brightness": 65.19855499267578
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.114641",
+        "image_id": "20170413113710974.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 80.7 < 100",
+        "metrics": {
+            "blur_score": 80.67450040992007,
+            "brightness": 96.57626520120243
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.162446",
+        "image_id": "20170413133939478.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.3 < 100",
+        "metrics": {
+            "blur_score": 83.33073037675058,
+            "brightness": 72.23944473266602
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.217279",
+        "image_id": "20170413142900064.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 63.7 < 100",
+        "metrics": {
+            "blur_score": 63.724865948712385,
+            "brightness": 75.00688001844618
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.223167",
+        "image_id": "20170413144614969.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 79.7 < 100",
+        "metrics": {
+            "blur_score": 79.67412183222768,
+            "brightness": 76.82160186767578
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.228309",
+        "image_id": "20170413144619040.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 97.6 < 100",
+        "metrics": {
+            "blur_score": 97.58132923807716,
+            "brightness": 71.78964614868164
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.239780",
+        "image_id": "20170413145755406.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 42.6 < 100",
+        "metrics": {
+            "blur_score": 42.5902061083907,
+            "brightness": 60.65113830566406
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.244973",
+        "image_id": "20170413145814531.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 62.8 < 100",
+        "metrics": {
+            "blur_score": 62.82397459447384,
+            "brightness": 40.946990966796875
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.278267",
+        "image_id": "20170413151851880.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 86.7 < 100",
+        "metrics": {
+            "blur_score": 86.73888538501849,
+            "brightness": 75.22356838650174
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.311341",
+        "image_id": "20170413151855798.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 57.5 < 100",
+        "metrics": {
+            "blur_score": 57.511509082935156,
+            "brightness": 59.72435167100694
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.347315",
+        "image_id": "20170413152155981.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 94.5 < 100",
+        "metrics": {
+            "blur_score": 94.45122499819026,
+            "brightness": 82.80596867314091
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.423515",
+        "image_id": "20170413154250087.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 93.4 < 100",
+        "metrics": {
+            "blur_score": 93.44593555207979,
+            "brightness": 72.46269389334681
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.456797",
+        "image_id": "20170413162943058.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.3 < 100",
+        "metrics": {
+            "blur_score": 83.25454881455875,
+            "brightness": 76.45072315357349
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.524297",
+        "image_id": "20170414094612758.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 94.1 < 100",
+        "metrics": {
+            "blur_score": 94.07661819421628,
+            "brightness": 68.11810684204102
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.531985",
+        "image_id": "20170414094843781.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 65.4 < 100",
+        "metrics": {
+            "blur_score": 65.39294814642926,
+            "brightness": 50.276573181152344
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.538392",
+        "image_id": "20170414094845256.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.2 < 100",
+        "metrics": {
+            "blur_score": 74.23669051214529,
+            "brightness": 51.618263244628906
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.642394",
+        "image_id": "20170414113710416.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 82.2 < 100",
+        "metrics": {
+            "blur_score": 82.17375465675637,
+            "brightness": 74.75822561758535
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.676423",
+        "image_id": "20170414114604302.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 88.5 < 100",
+        "metrics": {
+            "blur_score": 88.52529907225414,
+            "brightness": 81.98873901367188
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.682856",
+        "image_id": "20170414124909791.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 67.2 < 100",
+        "metrics": {
+            "blur_score": 67.17263412055036,
+            "brightness": 45.89645767211914
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.692729",
+        "image_id": "20170414125150432.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 98.9 < 100",
+        "metrics": {
+            "blur_score": 98.91365814185701,
+            "brightness": 58.29690933227539
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.699330",
+        "image_id": "20170414125158502.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 66.7 < 100",
+        "metrics": {
+            "blur_score": 66.72724913968705,
+            "brightness": 44.579586029052734
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.704971",
+        "image_id": "20170414145526529.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.8 < 100",
+        "metrics": {
+            "blur_score": 74.82777866382094,
+            "brightness": 76.90604782104492
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.710011",
+        "image_id": "20170414145958537.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 67.6 < 100",
+        "metrics": {
+            "blur_score": 67.58984371647239,
+            "brightness": 75.91509628295898
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.715239",
+        "image_id": "20170414150026627.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 93.1 < 100",
+        "metrics": {
+            "blur_score": 93.0963592165499,
+            "brightness": 81.17041397094727
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.746690",
+        "image_id": "20170414152313848.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 63.8 < 100",
+        "metrics": {
+            "blur_score": 63.79440872757523,
+            "brightness": 65.44788784450955
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.829662",
+        "image_id": "20170415082515006.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 97.4 < 100",
+        "metrics": {
+            "blur_score": 97.39680858339125,
+            "brightness": 49.02723693847656
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.834581",
+        "image_id": "20170415085332361.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 91.1 < 100",
+        "metrics": {
+            "blur_score": 91.14677046959696,
+            "brightness": 50.151981353759766
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.844626",
+        "image_id": "20170415090308241.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 92.4 < 100",
+        "metrics": {
+            "blur_score": 92.42091367742978,
+            "brightness": 48.4642219543457
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.849806",
+        "image_id": "20170415090309773.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.0 < 100",
+        "metrics": {
+            "blur_score": 83.03285216446966,
+            "brightness": 46.715606689453125
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.863162",
+        "image_id": "20170415091130973.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 49.6 < 100",
+        "metrics": {
+            "blur_score": 49.61912535637384,
+            "brightness": 35.94256591796875
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.868358",
+        "image_id": "20170415091132491.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.2 < 100",
+        "metrics": {
+            "blur_score": 74.22254562050512,
+            "brightness": 43.362342834472656
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.873565",
+        "image_id": "20170415091834472.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 45.3 < 100",
+        "metrics": {
+            "blur_score": 45.313417973098694,
+            "brightness": 36.236778259277344
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.878487",
+        "image_id": "20170415092114824.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 70.2 < 100",
+        "metrics": {
+            "blur_score": 70.20594024285674,
+            "brightness": 49.65046310424805
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:56:37.883579",
+        "image_id": "20170415094348285.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 45.2 < 100",
+        "metrics": {
+            "blur_score": 45.16265106195351,
+            "brightness": 37.22306442260742
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.801241",
+        "image_id": "20170413102628830.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 87.3 < 100",
+        "metrics": {
+            "blur_score": 87.27433222948781,
+            "brightness": 88.17832120223908
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.887641",
+        "image_id": "20170413112015395.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 55.0 < 100",
+        "metrics": {
+            "blur_score": 54.962286072965775,
+            "brightness": 83.99068926351028
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.964072",
+        "image_id": "20170413112017305.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 62.2 < 100",
+        "metrics": {
+            "blur_score": 62.21770384983262,
+            "brightness": 95.00224046935847
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.970414",
+        "image_id": "20170413112528859.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 50.9 < 100",
+        "metrics": {
+            "blur_score": 50.87069317988062,
+            "brightness": 65.46155548095703
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.975381",
+        "image_id": "20170413112758639.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 65.5 < 100",
+        "metrics": {
+            "blur_score": 65.51108157505223,
+            "brightness": 69.20849227905273
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.980049",
+        "image_id": "20170413112758698.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 80.7 < 100",
+        "metrics": {
+            "blur_score": 80.6550978901214,
+            "brightness": 68.61548614501953
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:27.985209",
+        "image_id": "20170413113351595.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 60.1 < 100",
+        "metrics": {
+            "blur_score": 60.09056846704334,
+            "brightness": 65.19855499267578
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.062577",
+        "image_id": "20170413113710974.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 80.7 < 100",
+        "metrics": {
+            "blur_score": 80.67450040992007,
+            "brightness": 96.57626520120243
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.102016",
+        "image_id": "20170413133939478.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.3 < 100",
+        "metrics": {
+            "blur_score": 83.33073037675058,
+            "brightness": 72.23944473266602
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.152334",
+        "image_id": "20170413142900064.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 63.7 < 100",
+        "metrics": {
+            "blur_score": 63.724865948712385,
+            "brightness": 75.00688001844618
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.157938",
+        "image_id": "20170413144614969.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 79.7 < 100",
+        "metrics": {
+            "blur_score": 79.67412183222768,
+            "brightness": 76.82160186767578
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.162936",
+        "image_id": "20170413144619040.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 97.6 < 100",
+        "metrics": {
+            "blur_score": 97.58132923807716,
+            "brightness": 71.78964614868164
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.172279",
+        "image_id": "20170413145755406.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 42.6 < 100",
+        "metrics": {
+            "blur_score": 42.5902061083907,
+            "brightness": 60.65113830566406
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.177524",
+        "image_id": "20170413145814531.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 62.8 < 100",
+        "metrics": {
+            "blur_score": 62.82397459447384,
+            "brightness": 40.946990966796875
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.208488",
+        "image_id": "20170413151851880.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 86.7 < 100",
+        "metrics": {
+            "blur_score": 86.73888538501849,
+            "brightness": 75.22356838650174
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.240170",
+        "image_id": "20170413151855798.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 57.5 < 100",
+        "metrics": {
+            "blur_score": 57.511509082935156,
+            "brightness": 59.72435167100694
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.272402",
+        "image_id": "20170413152155981.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 94.5 < 100",
+        "metrics": {
+            "blur_score": 94.45122499819026,
+            "brightness": 82.80596867314091
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.352651",
+        "image_id": "20170413154250087.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 93.4 < 100",
+        "metrics": {
+            "blur_score": 93.44593555207979,
+            "brightness": 72.46269389334681
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.385515",
+        "image_id": "20170413162943058.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.3 < 100",
+        "metrics": {
+            "blur_score": 83.25454881455875,
+            "brightness": 76.45072315357349
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.441872",
+        "image_id": "20170414094612758.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 94.1 < 100",
+        "metrics": {
+            "blur_score": 94.07661819421628,
+            "brightness": 68.11810684204102
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.447112",
+        "image_id": "20170414094843781.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 65.4 < 100",
+        "metrics": {
+            "blur_score": 65.39294814642926,
+            "brightness": 50.276573181152344
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.452023",
+        "image_id": "20170414094845256.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.2 < 100",
+        "metrics": {
+            "blur_score": 74.23669051214529,
+            "brightness": 51.618263244628906
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.547524",
+        "image_id": "20170414113710416.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 82.2 < 100",
+        "metrics": {
+            "blur_score": 82.17375465675637,
+            "brightness": 74.75822561758535
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.579186",
+        "image_id": "20170414114604302.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 88.5 < 100",
+        "metrics": {
+            "blur_score": 88.52529907225414,
+            "brightness": 81.98873901367188
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.584623",
+        "image_id": "20170414124909791.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 67.2 < 100",
+        "metrics": {
+            "blur_score": 67.17263412055036,
+            "brightness": 45.89645767211914
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.594851",
+        "image_id": "20170414125150432.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 98.9 < 100",
+        "metrics": {
+            "blur_score": 98.91365814185701,
+            "brightness": 58.29690933227539
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.600222",
+        "image_id": "20170414125158502.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 66.7 < 100",
+        "metrics": {
+            "blur_score": 66.72724913968705,
+            "brightness": 44.579586029052734
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.605277",
+        "image_id": "20170414145526529.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.8 < 100",
+        "metrics": {
+            "blur_score": 74.82777866382094,
+            "brightness": 76.90604782104492
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.610522",
+        "image_id": "20170414145958537.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 67.6 < 100",
+        "metrics": {
+            "blur_score": 67.58984371647239,
+            "brightness": 75.91509628295898
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.616601",
+        "image_id": "20170414150026627.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 93.1 < 100",
+        "metrics": {
+            "blur_score": 93.0963592165499,
+            "brightness": 81.17041397094727
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.645592",
+        "image_id": "20170414152313848.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 63.8 < 100",
+        "metrics": {
+            "blur_score": 63.79440872757523,
+            "brightness": 65.44788784450955
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.721314",
+        "image_id": "20170415082515006.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 97.4 < 100",
+        "metrics": {
+            "blur_score": 97.39680858339125,
+            "brightness": 49.02723693847656
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.727244",
+        "image_id": "20170415085332361.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 91.1 < 100",
+        "metrics": {
+            "blur_score": 91.14677046959696,
+            "brightness": 50.151981353759766
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.736480",
+        "image_id": "20170415090308241.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 92.4 < 100",
+        "metrics": {
+            "blur_score": 92.42091367742978,
+            "brightness": 48.4642219543457
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.741737",
+        "image_id": "20170415090309773.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 83.0 < 100",
+        "metrics": {
+            "blur_score": 83.03285216446966,
+            "brightness": 46.715606689453125
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.753716",
+        "image_id": "20170415091130973.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 49.6 < 100",
+        "metrics": {
+            "blur_score": 49.61912535637384,
+            "brightness": 35.94256591796875
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.759078",
+        "image_id": "20170415091132491.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 74.2 < 100",
+        "metrics": {
+            "blur_score": 74.22254562050512,
+            "brightness": 43.362342834472656
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.764260",
+        "image_id": "20170415091834472.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 45.3 < 100",
+        "metrics": {
+            "blur_score": 45.313417973098694,
+            "brightness": 36.236778259277344
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.770112",
+        "image_id": "20170415092114824.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 70.2 < 100",
+        "metrics": {
+            "blur_score": 70.20594024285674,
+            "brightness": 49.65046310424805
+        }
+    },
+    {
+        "timestamp": "2026-02-12T10:57:28.775661",
+        "image_id": "20170415094348285.jpg",
+        "status": "REJECTED",
+        "reason": "Blur score 45.2 < 100",
+        "metrics": {
+            "blur_score": 45.16265106195351,
+            "brightness": 37.22306442260742
+        }
+    }
+]
