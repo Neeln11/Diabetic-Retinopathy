@@ -61,6 +61,7 @@ class SwinDRClassifier(nn.Module):
         use_checkpoint: bool = True,
         dropout_rate: float = 0.3,
         pretrained: bool = False,
+        ordinal_head: bool = False,
     ):
         super().__init__()
         
@@ -68,6 +69,7 @@ class SwinDRClassifier(nn.Module):
         self.num_classes = num_classes
         self.feature_size = feature_size
         self.use_checkpoint = use_checkpoint
+        self.ordinal_head = ordinal_head
         
         # Swin-Tiny configuration for 4GB VRAM
         # Standard Swin-T: depths=[2,2,6,2], num_heads=[3,6,12,24]
@@ -96,10 +98,11 @@ class SwinDRClassifier(nn.Module):
         self.global_pool = nn.AdaptiveAvgPool2d(1)
         
         # Classification head
+        out_features = num_classes - 1 if ordinal_head else num_classes
         self.classifier = nn.Sequential(
             nn.Flatten(),
             nn.Dropout(dropout_rate),
-            nn.Linear(self.feature_dim, num_classes)
+            nn.Linear(self.feature_dim, out_features)
         )
         
         # Initialize weights

@@ -21,12 +21,23 @@ class MetaPredictor:
         - DenseNet-121 (ImageNet): 0.3
     """
     
-    def __init__(self, swin_path=None, effnet_path=None, densenet_path=None, device='cuda' if torch.cuda.is_available() else 'cpu'):
+    def __init__(self, swin_path=None, effnet_path=None, densenet_path=None, meta_learner_path=None, device='cuda' if torch.cuda.is_available() else 'cpu'):
         self.swin_path = swin_path
         self.effnet_path = effnet_path
         self.densenet_path = densenet_path
+        self.meta_learner_path = meta_learner_path
         self.device = device
         self.weights = {'swin': 0.4, 'effnet': 0.3, 'densenet': 0.3}
+        self.meta_learner = self._load_meta_learner()
+        
+    def _load_meta_learner(self):
+        """Load optional Logistic Regression Meta-Learner for voting."""
+        import joblib
+        import os
+        if self.meta_learner_path and os.path.exists(self.meta_learner_path):
+            print(f">>> Loading Meta-Learner from {self.meta_learner_path}")
+            return joblib.load(self.meta_learner_path)
+        return None
         
     def _load_swin(self):
         """Load the domain-adapted Swin Transformer"""
@@ -136,16 +147,21 @@ class MetaPredictor:
             torch.cuda.empty_cache()
             gc.collect()
             
-        # Weighted Ensemble
-        # Swin (0.4) + EffNet (0.3) + DenseNet (0.3)
-        final_probs = (
-            predictions['swin'] * self.weights['swin'] + 
-            predictions['effnet'] * self.weights['effnet'] + 
-            predictions['densenet'] * self.weights['densenet']
-        )
+        # Weighted Ensemble or Meta-Learner
+        if self.meta_learner is not None:
+             # Feature vector consists of concatenated probabilities
+             features = torch.cat([predictions['swin'], predictions['effnet'], predictions['densenet']], dim=1).numpy()
+             final_probs = torch.tensor(self.meta_learner.predict_proba(features))
+             final_class = self.meta_learner.predict(features)[0]
+        else:
+             final_probs = (
+                 predictions['swin'] * self.weights['swin'] + 
+                 predictions['effnet'] * self.weights['effnet'] + 
+                 predictions['densenet'] * self.weights['densenet']
+             )
+             final_class = torch.argmax(final_probs, dim=1).item()
         
         # Grey-Zone Logic
-        final_class = torch.argmax(final_probs, dim=1).item()
         confidence = final_probs[0, final_class].item()
         is_ambiguous = 0.40 <= confidence <= 0.60
         
